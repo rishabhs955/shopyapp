@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/shopyapp/static/css/main.30698106.css",
+    "main.js": "/shopyapp/static/js/main.68fbd699.js",
+    "static/js/787.8102b4e8.chunk.js": "/shopyapp/static/js/787.8102b4e8.chunk.js",
+    "static/media/caro0.png": "/shopyapp/static/media/caro0.878e35589ca00d75e108.png",
+    "static/media/caro2.png": "/shopyapp/static/media/caro2.31527f45042d8a52d741.png",
+    "static/media/caro3.png": "/shopyapp/static/media/caro3.d1fb387d3f0872ce3175.png",
+    "static/media/laptop.png": "/shopyapp/static/media/laptop.dfe4cb3247cdfda1917d.png",
+    "static/media/logo.svg": "/shopyapp/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/shopyapp/index.html",
+    "main.30698106.css.map": "/shopyapp/static/css/main.30698106.css.map",
+    "main.68fbd699.js.map": "/shopyapp/static/js/main.68fbd699.js.map",
+    "787.8102b4e8.chunk.js.map": "/shopyapp/static/js/787.8102b4e8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30698106.css",
+    "static/js/main.68fbd699.js"
+  ]
+}
