@@ -1,0 +1,32 @@
+  .productImg{
+    object-fit: contain;
+    padding: 0 5px;
+  }
+  
+  .cardOutline{
+    margin: 0;
+  }
+  
+  .cardSubtitle{
+    margin-top: 20px;
+    color: green;
+    font-weight: bold;
+  }
+  
+  .siteButtons{
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .siteButtons img:nth-child(1){
+    margin-top: 15px;
+  }
+  
+  .siteButtons img{
+    width: 100px;
+    height: 30px;
+  }
+  
+  
