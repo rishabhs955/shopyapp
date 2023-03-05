@@ -16,6 +16,12 @@ import fas6 from '../fashionAssets/hoodie.png';
 import fas7 from '../fashionAssets/kurta.jpg';
 import fas8 from '../fashionAssets/hoodie1.webp';
 
+//Kids
+import kid0 from '../kidsAssets/kid0.webp';
+import kid1 from '../kidsAssets/kid1.webp';
+import kid2 from '../kidsAssets/kid2.webp';
+import kid3 from '../kidsAssets/kid3.jpg';
+
 //Affiliate
 import amazon from '../affiliateAssets/amazon.png';
 import flipkart from '../affiliateAssets/flipkart.png';
@@ -201,23 +207,23 @@ function MainBody() {
     </CardGroup>
     <h1 className='MainCardsHeading'>Kids Section</h1>
       <Carousel>
-      <Carousel.Item interval={100000}>
+      <Carousel.Item interval={1000}>
         <CardGroup>
             <MainCard 
-              productImg={fas5} 
-              productTitle={"Running / Walking / Sport Shoes For Men Running Shoes For Men  (White)"} 
+              productImg={kid0} 
+              productTitle={"Baby Smile Small Kids Cycle Toys / Baby Tricycle / Kids Trike 4006-Black Tricycle  (Black)"} 
             />  
             <MainCard 
-              productImg={fas6} 
-              productTitle={"Women Full Sleeve Solid Hooded Sweatshirt"} 
+              productImg={kid1} 
+              productTitle={"Vivida Enterprise Dancing cactus Toy Talking Repeat Singing Toy 120 Songs (Green)  (Green)"} 
             /> 
             <MainCard 
-              productImg={fas7} 
-              productTitle={"Manyavar Elegant Embroidered Knee Long Full Sleeves Kurta and Churidar Set For Men"} 
+              productImg={kid2} 
+              productTitle={"Mirana USB Rechargeable Racing RC Car | High Speed Remote Control Toy  (Pearl White)"} 
             /> 
             <MainCard 
-              productImg={fas8} 
-              productTitle={"Men Full Sleeve Printed Hooded Sweatshirt"} 
+              productImg={kid3} 
+              productTitle={"Babique Octopus Sitting Plush Soft Toy Cute Kids Animal Home Decor Boys/Girls (17 cm)"} 
             /> 
           </CardGroup>
         </Carousel.Item>
