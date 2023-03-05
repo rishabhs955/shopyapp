@@ -1,9 +1,10 @@
 import './App.css';
-import NavBar from './components/NavBar';
-import HeroSection from './components/HeroSection';
+import NavBar from './components/Navbar/NavBar';
+import HeroSection from './components/HeroSection/HeroSection';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Footer from './components/Footer';
-import MainBody from './components/MainBody';
+import Footer from './components/Footer/Footer';
+import MainBody from './components/MainBody/MainBody';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 function App() {
   return (
