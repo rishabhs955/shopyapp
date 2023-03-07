@@ -3,6 +3,8 @@ import amazon from '../affiliateAssets/amazon.png';
 import flipkart from '../affiliateAssets/flipkart.png';
 import Card from 'react-bootstrap/Card';
 import './MainCard.css'
+import { Button } from 'react-bootstrap';
+
 
 function MainCard(props) {
   return (
@@ -10,12 +12,13 @@ function MainCard(props) {
         <Card.Img variant="top" src={props.productImg} height={300} className="productImg" />
         <hr className='cardOutline'/>
         <Card.Body>
-        <Card.Title>{[props.productTitle]}</Card.Title>
+        <Card.Title>{[props.productTitle.substring(0, 75)]} ...</Card.Title>
         <Card.Subtitle className='cardSubtitle'>Buy at best price:</Card.Subtitle>
-        <div className='siteButtons'>
+        {/* <div className='siteButtons'>
             <img src={amazon}  />
             <img src={flipkart} />
-        </div>
+        </div> */}
+        <Button className='mainCardButton' variant='success'>Buy Now</Button>
         </Card.Body>
     </Card>
   )

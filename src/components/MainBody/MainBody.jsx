@@ -40,6 +40,12 @@ import mob6 from '../mobilesAssets/mob6.webp';
 import mob7 from '../mobilesAssets/mob7.webp';
 
 
+//Grooming
+import groom0 from '../GroomingAssets/groom0.webp';
+import groom1 from '../GroomingAssets/groom1.webp';
+import groom2 from '../GroomingAssets/groom2.webp';
+import groom3 from '../GroomingAssets/groom3.webp';
+
 
 //Kids
 import kid0 from '../kidsAssets/kid0.webp';
@@ -63,7 +69,7 @@ function MainBody() {
   return (
     <div>
       <h1 className='MainCardsHeading'>Fashion</h1>
-      <Carousel>
+      <Carousel indicators={false}>
         <Carousel.Item interval={100000}>
           <CardGroup>
             <MainCard
@@ -107,7 +113,7 @@ function MainBody() {
 
       </Carousel>
       <h1 className='MainCardsHeading'>Electronics</h1>
-      <Carousel>
+      <Carousel indicators={false}>
         <Carousel.Item interval={100000}>
           <CardGroup>
             <MainCard
@@ -137,7 +143,7 @@ function MainBody() {
 
 
       <h1 className='MainCardsHeading'>Groceries</h1>
-      <Carousel>
+      <Carousel indicators={false}>
         <Carousel.Item interval={100000}>
           <CardGroup>
             <MainCard
@@ -204,31 +210,31 @@ function MainBody() {
       </Carousel>
 
       <h1 className='MainCardsHeading'>Grooming</h1>
-      <Carousel>
+      <Carousel indicators={false}>
         <Carousel.Item interval={1000}>
           <CardGroup>
             <MainCard
-              productImg={mob0}
-              productTitle={"MOTOROLA g31 (Baby Blue, 128 GB)  (6 GB RAM)"}
+              productImg={groom0}
+              productTitle={"NOVA NHT 1052 USB Trimmer 90 min Runtime 40 Length Settings  (Black)"}
             />
             <MainCard
-              productImg={mob1}
-              productTitle={"vivo T1X (Space Blue, 64 GB)  (4 GB RAM)"}
+              productImg={groom1}
+              productTitle={"PARK AVENUE Essential Grooming Gifting Kit  (6 Items in the set)"}
             />
             <MainCard
-              productImg={mob2}
+              productImg={groom2}
               productTitle={"IQOO Neo 6 5G (Cyber Rage, 128 GB)  (8 GB RAM)"}
             />
             <MainCard
-              productImg={mob3}
-              productTitle={"Infinix HOT 20 Play (Fantasy Purple, 64 GB)  (4 GB RAM)"}
+              productImg={groom3}
+              productTitle={"MUUCHSTAC Skin Lightening Oil and Face Wash  (2 Items in the set)"}
             />
           </CardGroup>
         </Carousel.Item>
       </Carousel>
 
       <h1 className='MainCardsHeading'>Kids Section</h1>
-      <Carousel>
+      <Carousel indicators={false}>
         <Carousel.Item interval={1000}>
           <CardGroup>
             <MainCard
