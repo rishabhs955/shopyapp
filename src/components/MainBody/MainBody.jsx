@@ -166,7 +166,7 @@ function MainBody() {
         </Carousel.Item>
       </Carousel>
       <h1 className='MainCardsHeading'>Mobiles</h1>
-      <Carousel interval={false}>
+      <Carousel indicators={false}>
         <Carousel.Item interval={1000}>
           <CardGroup>
             <MainCard
