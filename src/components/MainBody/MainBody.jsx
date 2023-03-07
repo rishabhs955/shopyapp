@@ -129,7 +129,7 @@ function MainBody() {
             />
             <MainCard
               productImg={elec2}
-              productTitle={"APPLE 2020 Macbook Air M1 - (8 GB/256 GB SSD/Mac OS Big Sur) MGN63HN/A  (13.3 inch, Space Grey, 1.29 kg)..."}
+              productTitle={"APPLE 2020 Macbook Air M1 - (8 GB/256 GB SSD/Mac OS Big Sur) MGN63HN/A  (13.3 inch, Space Grey, 1.29 kg)"}
               productDesc={"Raise the thrill in every game and add a little style to your gaming setup with the Asus TUF Gaming F15 laptop. It is equipped with a 10th Gen Intel Core H-Series processor and GeForce GTX 1650 GPU so that you can experience fast-paced and smooth gaming. And, with the desktop-style Keyboard setup and integrated backlights, you can indulge in gaming for hours without getting bored."}
             />
             <MainCard
@@ -166,7 +166,7 @@ function MainBody() {
         </Carousel.Item>
       </Carousel>
       <h1 className='MainCardsHeading'>Mobiles</h1>
-      <Carousel>
+      <Carousel interval={false}>
         <Carousel.Item interval={1000}>
           <CardGroup>
             <MainCard
