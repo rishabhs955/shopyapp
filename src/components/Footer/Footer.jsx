@@ -11,15 +11,15 @@ function Footer() {
         </div>
 
         <div>
-          <a href='' className='me-4 text-reset'>
+          {/* <a href='' className='me-4 text-reset'>
             <MDBIcon fab icon="facebook-f" />
-          </a>
-          <a href='' className='me-4 text-reset'>
+          </a> */}
+          {/* <a href='' className='me-4 text-reset'>
             <MDBIcon fab icon="twitter" />
-          </a>
-          <a href='' className='me-4 text-reset'>
+          </a> */}
+          {/* <a href='' className='me-4 text-reset'>
             <MDBIcon fab icon="google" />
-          </a>
+          </a> */}
           <a href='https://www.instagram.com/shapind_/' className='me-4 text-reset'>
             <MDBIcon fab icon="instagram" />
           </a>
@@ -98,17 +98,19 @@ function Footer() {
               <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
               <p>
                 <MDBIcon icon="home" className="me-2" />
-                New York, NY 10012, US
+                {/* New York, NY 10012, US */}
               </p>
               <p>
                 <MDBIcon icon="envelope" className="me-3" />
-                info@example.com
+                {/* info@example.com */}
               </p>
               <p>
-                <MDBIcon icon="phone" className="me-3" /> + 01 234 567 88
+                <MDBIcon icon="phone" className="me-3" /> 
+                {/* + 01 234 567 88 */}
               </p>
               <p>
-                <MDBIcon icon="print" className="me-3" /> + 01 234 567 89
+                <MDBIcon icon="print" className="me-3" /> 
+                {/* + 01 234 567 89 */}
               </p>
             </MDBCol>
           </MDBRow>
@@ -116,9 +118,8 @@ function Footer() {
       </section>
 
       <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
-        © 2023 Copyright:
-        <a className='text-reset fw-bold' href='https://mdbootstrap.com/'>
-          Shapind.com
+        © 2023 Copyright : <a className='text-reset fw-bold text-decoration-none'  href='https://mdbootstrap.com/'>
+           Shapind.com
         </a>
       </div>
     </MDBFooter>
