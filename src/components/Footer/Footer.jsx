@@ -38,7 +38,7 @@ function Footer() {
             <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>
                 <MDBIcon icon="gem" className="me-3" />
-                Shopy.in
+                Shapind.com
               </h6>
               <p>
                 Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
@@ -118,7 +118,7 @@ function Footer() {
       <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
         © 2023 Copyright:
         <a className='text-reset fw-bold' href='https://mdbootstrap.com/'>
-          Shopy.in
+          Shapind.com
         </a>
       </div>
     </MDBFooter>
