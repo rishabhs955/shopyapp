@@ -94,25 +94,25 @@ function Footer() {
               </p>
             </MDBCol>
 
-            <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
+            {/* <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
               <p>
                 <MDBIcon icon="home" className="me-2" />
-                {/* New York, NY 10012, US */}
+                New York, NY 10012, US
               </p>
               <p>
                 <MDBIcon icon="envelope" className="me-3" />
-                {/* info@example.com */}
+                info@example.com
               </p>
               <p>
                 <MDBIcon icon="phone" className="me-3" /> 
-                {/* + 01 234 567 88 */}
+                + 01 234 567 88
               </p>
               <p>
                 <MDBIcon icon="print" className="me-3" /> 
-                {/* + 01 234 567 89 */}
+                + 01 234 567 89
               </p>
-            </MDBCol>
+            </MDBCol> */}
           </MDBRow>
         </MDBContainer>
       </section>
