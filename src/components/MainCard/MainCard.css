@@ -1,0 +1,45 @@
+  .productImg{
+    object-fit: contain;
+    padding: 0 5px;
+  }
+  
+  .cardOutline{
+    margin: 0;
+  }
+    
+  .siteButtons{
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .siteButtons img:nth-child(1){
+    margin-top: 15px;
+  }
+  
+  .siteButtons img{
+    width: 100px;
+    height: 30px;
+  }
+
+  .bottomCardSection{
+  }
+
+  .cardSubtitle{
+    /* position: absolute; */
+    margin-top: 20px;
+    color: green;
+    font-weight: bold;
+  }
+
+  /* .mainCardButton{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 80%;
+    margin: auto;
+  } */
+  
+  
