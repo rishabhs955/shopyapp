@@ -11,23 +11,23 @@ function Footer() {
         </div>
 
         <div>
-          <a href='' className='me-4 text-reset'>
+          {/* <a href='' className='me-4 text-reset'>
             <MDBIcon fab icon="facebook-f" />
-          </a>
-          <a href='' className='me-4 text-reset'>
+          </a> */}
+          {/* <a href='' className='me-4 text-reset'>
             <MDBIcon fab icon="twitter" />
-          </a>
-          <a href='' className='me-4 text-reset'>
+          </a> */}
+          {/* <a href='' className='me-4 text-reset'>
             <MDBIcon fab icon="google" />
-          </a>
-          <a href='' className='me-4 text-reset'>
+          </a> */}
+          <a href='https://www.instagram.com/shapind_/' className='me-4 text-reset'>
             <MDBIcon fab icon="instagram" />
           </a>
-          <a href='' className='me-4 text-reset'>
-            <MDBIcon fab icon="linkedin" />
+          <a href='https://www.youtube.com/@shapind' className='me-4 text-reset'>
+            <MDBIcon fab icon="youtube" />
           </a>
-          <a href='' className='me-4 text-reset'>
-            <MDBIcon fab icon="github" />
+          <a href='https://t.me/shapind' className='me-4 text-reset'>
+            <MDBIcon fab icon="telegram" />
           </a>
         </div>
       </section>
@@ -38,7 +38,7 @@ function Footer() {
             <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>
                 <MDBIcon icon="gem" className="me-3" />
-                Shopy.in
+                Shapind.com
               </h6>
               <p>
                 Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
@@ -94,7 +94,7 @@ function Footer() {
               </p>
             </MDBCol>
 
-            <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
+            {/* <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
               <p>
                 <MDBIcon icon="home" className="me-2" />
@@ -105,20 +105,21 @@ function Footer() {
                 info@example.com
               </p>
               <p>
-                <MDBIcon icon="phone" className="me-3" /> + 01 234 567 88
+                <MDBIcon icon="phone" className="me-3" /> 
+                + 01 234 567 88
               </p>
               <p>
-                <MDBIcon icon="print" className="me-3" /> + 01 234 567 89
+                <MDBIcon icon="print" className="me-3" /> 
+                + 01 234 567 89
               </p>
-            </MDBCol>
+            </MDBCol> */}
           </MDBRow>
         </MDBContainer>
       </section>
 
       <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
-        © 2023 Copyright:
-        <a className='text-reset fw-bold' href='https://mdbootstrap.com/'>
-          Shopy.in
+        © 2023 Copyright : <a className='text-reset fw-bold text-decoration-none'  href='https://mdbootstrap.com/'>
+           Shapind.com
         </a>
       </div>
     </MDBFooter>
