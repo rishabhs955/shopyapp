@@ -5,12 +5,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './components/Footer/Footer';
 import MainBody from './components/MainBody/MainBody';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import TestSlider from './components/TestSlider/TestSlider';
 
 function App() {
   return (
     <div className="App">
       <NavBar />
       <HeroSection />
+      {/* <TestSlider/> */}
       <MainBody/>
       <Footer/>
     </div>
