@@ -4,7 +4,7 @@ import CardGroup from 'react-bootstrap/CardGroup';
 import laptop from '../laptop.png';
 import pococ31 from '../assets/pococ31.jpg';
 import './MainBody.css';
-import Carousel from 'react-bootstrap/Carousel';
+// import Carousel from 'react-bootstrap/Carousel';
 
 //Fashion
 import fas1 from '../fashionAssets/blackShirt.png';
@@ -63,59 +63,77 @@ import amazon from '../affiliateAssets/amazon.png';
 import flipkart from '../affiliateAssets/flipkart.png';
 import MainCard from '../MainCard/MainCard';
 import { CarouselItem } from 'react-bootstrap';
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
+
+
 
 function MainBody() {
+
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 4
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1
+    }
+  };
 
   return (
     <div>
       <h1 className='MainCardsHeading'>Fashion</h1>
-      <Carousel indicators={false}>
-        <Carousel.Item interval={100000}>
-          <CardGroup>
-            <MainCard
-              productImg={fas5}
-              productTitle={"Running / Walking / Sport Shoes For Men Running Shoes For Men  (White)"}
-            />
-            <MainCard
-              productImg={fas6}
-              productTitle={"Women Full Sleeve Solid Hooded Sweatshirt"}
-            />
-            <MainCard
-              productImg={fas7}
-              productTitle={"Manyavar Elegant Embroidered Knee Long Full Sleeves Kurta and Churidar Set For Men"}
-            />
-            <MainCard
-              productImg={fas8}
-              productTitle={"Men Full Sleeve Printed Hooded Sweatshirt"}
-            />
-          </CardGroup>
-        </Carousel.Item>
-        <Carousel.Item interval={100000}>
-          <CardGroup>
-            <MainCard
-              productImg={fas1}
-              productTitle={"Men Slim Fit Printed Spread Collar Casual Shirt"}
-            />
-            <MainCard
-              productImg={fas2}
-              productTitle={"Women Kurta and Pant Set Viscose Rayon"}
-            />
-            <MainCard
-              productImg={fas3}
-              productTitle={"Puma Unisex-Adult Bari Z Softfoam+ Sneakers"}
-            />
-            <MainCard
-              productImg={fas4}
-              productTitle={"Self Design Bollywood Cotton Blend Saree  (Mustard)"}
-            />
-          </CardGroup>
-        </Carousel.Item>
-
+      <Carousel 
+        responsive={responsive}
+        infinite={true}  
+      >
+        <MainCard
+          productImg={fas5}
+          productTitle={"Running / Walking / Sport Shoes For Men Running Shoes For Men  (White)"}
+        />
+        <MainCard
+          productImg={fas6}
+          productTitle={"Women Full Sleeve Solid Hooded Sweatshirt"}
+        />
+        <MainCard
+          productImg={fas7}
+          productTitle={"Manyavar Elegant Embroidered Knee Long Full Sleeves Kurta and Churidar Set For Men"}
+        />
+        <MainCard
+          productImg={fas8}
+          productTitle={"Men Full Sleeve Printed Hooded Sweatshirt"}
+        />
+          <MainCard
+          productImg={fas1}
+          productTitle={"Men Slim Fit Printed Spread Collar Casual Shirt"}
+        />
+        <MainCard
+          productImg={fas2}
+          productTitle={"Women Kurta and Pant Set Viscose Rayon"}
+        />
+        <MainCard
+          productImg={fas3}
+          productTitle={"Puma Unisex-Adult Bari Z Softfoam+ Sneakers"}
+        />
+        <MainCard
+          productImg={fas4}
+          productTitle={"Self Design Bollywood Cotton Blend Saree  (Mustard)"}
+        />
       </Carousel>
+  
       <h1 className='MainCardsHeading'>Electronics</h1>
-      <Carousel indicators={false}>
-        <Carousel.Item interval={100000}>
-          <CardGroup>
+      <Carousel  responsive={responsive}
+        infinite={true}  >
             <MainCard
               productImg={elec0}
               productTitle={"MSI GF63 Thin Core i5 10th Gen - (8 GB/1 TB HDD/Windows 10 Home/4 GB Graphics/NVIDIA GeForce GTX 1650 Max Q/60 Hz) GF63 Thin 10SCXR-1618IN / GF63 Thin 10SC-612IN Gaming Laptop  (15.6 inch, Black, 1.86 KG)"}
@@ -136,16 +154,13 @@ function MainBody() {
               productImg={elec3}
               productTitle={"MSI Katana GF66 Core i5 12th Gen - (16 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 3050 Ti/144 Hz) Katana GF66 12UD-472IN Gaming Laptop  (15.6 Inch, Black, 2.25 Kg)"}
             />
-          </CardGroup>
-        </Carousel.Item>
       </Carousel>
 
 
 
       <h1 className='MainCardsHeading'>Groceries</h1>
-      <Carousel indicators={false}>
-        <Carousel.Item interval={100000}>
-          <CardGroup>
+      <Carousel  responsive={responsive}
+        infinite={true}  >
             <MainCard
               productImg={groc0}
               productTitle={"Delicious CASHEW WHOLE Cashews  (100 g)"}
@@ -162,13 +177,10 @@ function MainBody() {
               productImg={groc3}
               productTitle={"Del Monte Tomato Ketchup - Classic Blend, 950g"}
             />
-          </CardGroup>
-        </Carousel.Item>
       </Carousel>
       <h1 className='MainCardsHeading'>Mobiles</h1>
-      <Carousel indicators={false}>
-        <Carousel.Item interval={1000}>
-          <CardGroup>
+      <Carousel  responsive={responsive}
+        infinite={true}  >
             <MainCard
               productImg={mob0}
               productTitle={"MOTOROLA g31 (Baby Blue, 128 GB)  (6 GB RAM)"}
@@ -185,10 +197,6 @@ function MainBody() {
               productImg={mob3}
               productTitle={"Infinix HOT 20 Play (Fantasy Purple, 64 GB)  (4 GB RAM)"}
             />
-          </CardGroup>
-        </Carousel.Item>
-        <Carousel.Item interval={1000}>
-          <CardGroup>
             <MainCard
               productImg={mob4}
               productTitle={"REDMI Note 10S (Frost White, 64 GB)  (6 GB RAM)"}
@@ -205,14 +213,11 @@ function MainBody() {
               productImg={mob7}
               productTitle={"REDMI Note 12 Pro+ 5G (Obsidian Black, 256 GB)  (8 GB RAM)"}
             />
-          </CardGroup>
-        </Carousel.Item>
       </Carousel>
 
       <h1 className='MainCardsHeading'>Grooming</h1>
-      <Carousel indicators={false}>
-        <Carousel.Item interval={1000}>
-          <CardGroup>
+      <Carousel  responsive={responsive}
+        infinite={true}  >
             <MainCard
               productImg={groom0}
               productTitle={"NOVA NHT 1052 USB Trimmer 90 min Runtime 40 Length Settings  (Black)"}
@@ -229,14 +234,11 @@ function MainBody() {
               productImg={groom3}
               productTitle={"MUUCHSTAC Skin Lightening Oil and Face Wash  (2 Items in the set)"}
             />
-          </CardGroup>
-        </Carousel.Item>
       </Carousel>
 
       <h1 className='MainCardsHeading'>Kids Section</h1>
-      <Carousel indicators={false}>
-        <Carousel.Item interval={1000}>
-          <CardGroup>
+      <Carousel  responsive={responsive}
+        infinite={true}  >
             <MainCard
               productImg={kid0}
               productTitle={"Baby Smile Small Kids Cycle Toys / Baby Tricycle / Kids Trike 4006-Black Tricycle  (Black)"}
@@ -253,10 +255,6 @@ function MainBody() {
               productImg={kid3}
               productTitle={"Babique Octopus Sitting Plush Soft Toy Cute Kids Animal Home Decor Boys/Girls (17 cm)"}
             />
-          </CardGroup>
-        </Carousel.Item>
-        <Carousel.Item interval={1000}>
-          <CardGroup>
             <MainCard
               productImg={kid4}
               productTitle={"Mayne Rechargeable Helicopter with Remote Control and Hand Sensor Toy for kids  (Yellow)"}
@@ -273,9 +271,6 @@ function MainBody() {
               productImg={kid7}
               productTitle={"Wembley USB Rechageable Hover Ball Indoor Football Soccer Game With Colorful LED (Grey) Hoverball"}
             />
-          </CardGroup>
-        </Carousel.Item>
-
       </Carousel>
     </div>
   )
