@@ -1,3 +1,19 @@
 html {
     scroll-behavior: smooth;
   }
+
+  a{
+    text-decoration: none !important;
+  }
+
+  a.nostyle:link {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}
+
+a.nostyle:visited {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}

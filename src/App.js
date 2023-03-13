@@ -1,20 +1,20 @@
 import './App.css';
-import NavBar from './components/Navbar/NavBar';
-import HeroSection from './components/HeroSection/HeroSection';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Footer from './components/Footer/Footer';
-import MainBody from './components/MainBody/MainBody';
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import TestSlider from './components/TestSlider/TestSlider';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import HomePage from './components/HomePage/HomePage';
+import Fashion from './components/FashionPage/Fashion';
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <HeroSection />
-      {/* <TestSlider/> */}
-      <MainBody/>
-      <Footer/>
+      <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />}/>
+        <Route path="/fashion" element={<Fashion />} />
+      </Routes>
+    </BrowserRouter>
+      
     </div>
   );
 }
