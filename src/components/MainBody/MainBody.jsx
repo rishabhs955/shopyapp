@@ -144,7 +144,7 @@ function MainBody() {
           productTitle={"ASUS TUF Gaming F15 Intel Core i5 10th Gen - (8 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce GTX 1650/144 Hz) FX506LHB-HN358W Gaming Laptop (15.6 inch [40cm], Black Plastic, 2.30 kg)"}
         />
         <MainCard
-          productImg={"https://amzn.to/3yzs1VV"}
+          productImg={"https://m.media-amazon.com/images/I/617ysOitciL._SX522_.jpg"}
           productTitle={"boAt Xtend Smartwatch with Alexa Built-in, 1.69” HD Display, Multiple Watch Faces, Stress Monitor, Heart & SpO2 Monitoring, 14 Sports Modes, Sleep Monitor, 5 ATM & 7 Days Battery(Charcoal Black)"}
           productImgUrl={"https://m.media-amazon.com/images/I/617ysOitciL._SX522_.jpg"}
           productDesc={"Raise the thrill in every game and add a little style to your gaming setup with the Asus TUF Gaming F15 laptop. It is equipped with a 10th Gen Intel Core H-Series processor and GeForce GTX 1650 GPU so that you can experience fast-paced and smooth gaming. And, with the desktop-style Keyboard setup and integrated backlights, you can indulge in gaming for hours without getting bored."}
