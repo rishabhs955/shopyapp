@@ -93,9 +93,9 @@ function MainBody() {
   return (
     <div>
       <h1 className='MainCardsHeading'>Fashion</h1>
-      <Carousel 
+      <Carousel
         responsive={responsive}
-        infinite={true}  
+        infinite={true}
       >
         <MainCard
           productImg={fas5}
@@ -113,7 +113,7 @@ function MainBody() {
           productImg={fas8}
           productTitle={"Men Full Sleeve Printed Hooded Sweatshirt"}
         />
-          <MainCard
+        <MainCard
           productImg={fas1}
           productTitle={"Men Slim Fit Printed Spread Collar Casual Shirt"}
         />
@@ -130,147 +130,144 @@ function MainBody() {
           productTitle={"Self Design Bollywood Cotton Blend Saree  (Mustard)"}
         />
       </Carousel>
-  
+
       <h1 className='MainCardsHeading'>Electronics</h1>
-      <Carousel  responsive={responsive}
+      <Carousel responsive={responsive}
         infinite={true}  >
-            <MainCard
-              productImg={elec0}
-              productTitle={"MSI GF63 Thin Core i5 10th Gen - (8 GB/1 TB HDD/Windows 10 Home/4 GB Graphics/NVIDIA GeForce GTX 1650 Max Q/60 Hz) GF63 Thin 10SCXR-1618IN / GF63 Thin 10SC-612IN Gaming Laptop  (15.6 inch, Black, 1.86 KG)"}
-            // productDesc={"
-            //   The MSI GF63 Thin 10SCXR-1618IN Gaming Laptop is a power-packed, portable, and stylish device that lets you enjoy immersive gaming sessions anywhere and anytime. This laptop features the GeForce GTX 1650 Max-Q for impressive graphics performance, Audio Boost for lossless sound, and a Sided Thin Bezel Design for wide, distraction-free visuals."
-            // }
-            />
-            <MainCard
-              productImg={elec1}
-              productTitle={"ASUS TUF Gaming F15 Core i5 10th Gen - (8 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce GTX 1650/144 Hz) FX506LHB-HN358W Gaming Laptop  (15.6 inch, Black Plastic, 2.30 kg kg)"}
-            />
-            <MainCard
-              productImg={elec2}
-              productTitle={"APPLE 2020 Macbook Air M1 - (8 GB/256 GB SSD/Mac OS Big Sur) MGN63HN/A  (13.3 inch, Space Grey, 1.29 kg)"}
-              productDesc={"Raise the thrill in every game and add a little style to your gaming setup with the Asus TUF Gaming F15 laptop. It is equipped with a 10th Gen Intel Core H-Series processor and GeForce GTX 1650 GPU so that you can experience fast-paced and smooth gaming. And, with the desktop-style Keyboard setup and integrated backlights, you can indulge in gaming for hours without getting bored."}
-            />
-            <MainCard
-              productImg={elec3}
-              productTitle={"MSI Katana GF66 Core i5 12th Gen - (16 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 3050 Ti/144 Hz) Katana GF66 12UD-472IN Gaming Laptop  (15.6 Inch, Black, 2.25 Kg)"}
-            />
+        <MainCard productImg={"https://m.media-amazon.com/images/I/41tDRLWBPlL._SY300_SX300_.jpg"}
+          productImgUrl={"https://www.amazon.in/Mivi-Earphones-Powerful-Tangle-Length/dp/B093LMBJB6?crid=27XO92SNKU7GD&keywords=mivi+earphone&qid=1678708159&sprefix=mivi+,aps,400&sr=8-3&linkCode=sl1&tag=shapind-21&linkId=183ab12fb33e5087990b148d9ad5574d&language=en_IN&ref_=as_li_ss_tl"}
+          productTitle={'Mivi Rock and Roll E5 Wired In Ear Earphones with HD Sound and Extra Powerful Bass with Mic, Tangle Free & Extra Length Cable | Earphones for Mobile | Black'}>
+        </MainCard>
+        <MainCard
+          productImg={elec1}
+          productTitle={"ASUS TUF Gaming F15 Core i5 10th Gen - (8 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce GTX 1650/144 Hz) FX506LHB-HN358W Gaming Laptop  (15.6 inch, Black Plastic, 2.30 kg kg)"}
+        />
+        <MainCard
+          productImg={elec2}
+          productTitle={"APPLE 2020 Macbook Air M1 - (8 GB/256 GB SSD/Mac OS Big Sur) MGN63HN/A  (13.3 inch, Space Grey, 1.29 kg)"}
+          productDesc={"Raise the thrill in every game and add a little style to your gaming setup with the Asus TUF Gaming F15 laptop. It is equipped with a 10th Gen Intel Core H-Series processor and GeForce GTX 1650 GPU so that you can experience fast-paced and smooth gaming. And, with the desktop-style Keyboard setup and integrated backlights, you can indulge in gaming for hours without getting bored."}
+        />
+        <MainCard
+          productImg={elec3}
+          productTitle={"MSI Katana GF66 Core i5 12th Gen - (16 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 3050 Ti/144 Hz) Katana GF66 12UD-472IN Gaming Laptop  (15.6 Inch, Black, 2.25 Kg)"}
+        />
       </Carousel>
 
 
 
       <h1 className='MainCardsHeading'>Groceries</h1>
-      <Carousel  responsive={responsive}
+      <Carousel responsive={responsive}
         infinite={true}  >
-            <MainCard
-              productImg={groc0}
-              productTitle={"Delicious CASHEW WHOLE Cashews  (100 g)"}
-            />
-            <MainCard
-              productImg={groc1}
-              productTitle={"L'Oréal Paris Total Repair5 Combo with Keratin, Shampoo 704ml+ Conditioner 192.5ml+ Serum 40ml  (3 Items in the set)"}
-            />
-            <MainCard
-              productImg={groc2}
-              productTitle={"Pillsbury Chakki Fresh Whole Wheat Atta | 100% Wheat Atta| Upto 6 hours of Softness| 1kg"}
-            />
-            <MainCard
-              productImg={groc3}
-              productTitle={"Del Monte Tomato Ketchup - Classic Blend, 950g"}
-            />
+        <MainCard
+          productImg={groc0}
+          productTitle={"Delicious CASHEW WHOLE Cashews  (100 g)"}
+        />
+        <MainCard
+          productImg={groc1}
+          productTitle={"L'Oréal Paris Total Repair5 Combo with Keratin, Shampoo 704ml+ Conditioner 192.5ml+ Serum 40ml  (3 Items in the set)"}
+        />
+        <MainCard
+          productImg={groc2}
+          productTitle={"Pillsbury Chakki Fresh Whole Wheat Atta | 100% Wheat Atta| Upto 6 hours of Softness| 1kg"}
+        />
+        <MainCard
+          productImg={groc3}
+          productTitle={"Del Monte Tomato Ketchup - Classic Blend, 950g"}
+        />
       </Carousel>
       <h1 className='MainCardsHeading'>Mobiles</h1>
-      <Carousel  responsive={responsive}
+      <Carousel responsive={responsive}
         infinite={true}  >
-            <MainCard
-              productImg={mob0}
-              productTitle={"MOTOROLA g31 (Baby Blue, 128 GB)  (6 GB RAM)"}
-            />
-            <MainCard
-              productImg={mob1}
-              productTitle={"vivo T1X (Space Blue, 64 GB)  (4 GB RAM)"}
-            />
-            <MainCard
-              productImg={mob2}
-              productTitle={"IQOO Neo 6 5G (Cyber Rage, 128 GB)  (8 GB RAM)"}
-            />
-            <MainCard
-              productImg={mob3}
-              productTitle={"Infinix HOT 20 Play (Fantasy Purple, 64 GB)  (4 GB RAM)"}
-            />
-            <MainCard
-              productImg={mob4}
-              productTitle={"REDMI Note 10S (Frost White, 64 GB)  (6 GB RAM)"}
-            />
-            <MainCard
-              productImg={mob5}
-              productTitle={"APPLE iPhone 13 (Midnight, 128 GB)"}
-            />
-            <MainCard
-              productImg={mob6}
-              productTitle={"Infinix Zero 5G 2023 (Coral Orange, 128 GB)  (8 GB RAM)"}
-            />
-            <MainCard
-              productImg={mob7}
-              productTitle={"REDMI Note 12 Pro+ 5G (Obsidian Black, 256 GB)  (8 GB RAM)"}
-            />
+        <MainCard
+          productImg={mob0}
+          productTitle={"MOTOROLA g31 (Baby Blue, 128 GB)  (6 GB RAM)"}
+        />
+        <MainCard
+          productImg={mob1}
+          productTitle={"vivo T1X (Space Blue, 64 GB)  (4 GB RAM)"}
+        />
+        <MainCard
+          productImg={mob2}
+          productTitle={"IQOO Neo 6 5G (Cyber Rage, 128 GB)  (8 GB RAM)"}
+        />
+        <MainCard
+          productImg={mob3}
+          productTitle={"Infinix HOT 20 Play (Fantasy Purple, 64 GB)  (4 GB RAM)"}
+        />
+        <MainCard
+          productImg={mob4}
+          productTitle={"REDMI Note 10S (Frost White, 64 GB)  (6 GB RAM)"}
+        />
+        <MainCard
+          productImg={mob5}
+          productTitle={"APPLE iPhone 13 (Midnight, 128 GB)"}
+        />
+        <MainCard
+          productImg={mob6}
+          productTitle={"Infinix Zero 5G 2023 (Coral Orange, 128 GB)  (8 GB RAM)"}
+        />
+        <MainCard
+          productImg={mob7}
+          productTitle={"REDMI Note 12 Pro+ 5G (Obsidian Black, 256 GB)  (8 GB RAM)"}
+        />
       </Carousel>
 
       <h1 className='MainCardsHeading'>Grooming</h1>
-      <Carousel  responsive={responsive}
+      <Carousel responsive={responsive}
         infinite={true}  >
-            <MainCard
-              productImg={groom0}
-              productTitle={"NOVA NHT 1052 USB Trimmer 90 min Runtime 40 Length Settings  (Black)"}
-            />
-            <MainCard
-              productImg={groom1}
-              productTitle={"PARK AVENUE Essential Grooming Gifting Kit  (6 Items in the set)"}
-            />
-            <MainCard
-              productImg={groom2}
-              productTitle={"IQOO Neo 6 5G (Cyber Rage, 128 GB)  (8 GB RAM)"}
-            />
-            <MainCard
-              productImg={groom3}
-              productTitle={"MUUCHSTAC Skin Lightening Oil and Face Wash  (2 Items in the set)"}
-            />
+        <MainCard
+          productImg={groom0}
+          productTitle={"NOVA NHT 1052 USB Trimmer 90 min Runtime 40 Length Settings  (Black)"}
+        />
+        <MainCard
+          productImg={groom1}
+          productTitle={"PARK AVENUE Essential Grooming Gifting Kit  (6 Items in the set)"}
+        />
+        <MainCard
+          productImg={groom2}
+          productTitle={"IQOO Neo 6 5G (Cyber Rage, 128 GB)  (8 GB RAM)"}
+        />
+        <MainCard
+          productImg={groom3}
+          productTitle={"MUUCHSTAC Skin Lightening Oil and Face Wash  (2 Items in the set)"}
+        />
       </Carousel>
 
       <h1 className='MainCardsHeading'>Kids Section</h1>
-      <Carousel  responsive={responsive}
+      <Carousel responsive={responsive}
         infinite={true}  >
-            <MainCard
-              productImg={kid0}
-              productTitle={"Baby Smile Small Kids Cycle Toys / Baby Tricycle / Kids Trike 4006-Black Tricycle  (Black)"}
-            />
-            <MainCard
-              productImg={kid1}
-              productTitle={"Vivida Enterprise Dancing cactus Toy Talking Repeat Singing Toy 120 Songs (Green)  (Green)"}
-            />
-            <MainCard
-              productImg={kid2}
-              productTitle={"Mirana USB Rechargeable Racing RC Car | High Speed Remote Control Toy  (Pearl White)"}
-            />
-            <MainCard
-              productImg={kid3}
-              productTitle={"Babique Octopus Sitting Plush Soft Toy Cute Kids Animal Home Decor Boys/Girls (17 cm)"}
-            />
-            <MainCard
-              productImg={kid4}
-              productTitle={"Mayne Rechargeable Helicopter with Remote Control and Hand Sensor Toy for kids  (Yellow)"}
-            />
-            <MainCard
-              productImg={kid5}
-              productTitle={"Planet of Toys Heavy Duty Bow Arrow Set for Kids Age 5 -12 Years Outdoor Target Game Archery Archery Kit"}
-            />
-            <MainCard
-              productImg={kid6}
-              productTitle={"Prekrasna Portable 8.5 Inch LCD Writing Tablet / Drawing Board / Doodle Board / Writing Pad / slate for children"}
-            />
-            <MainCard
-              productImg={kid7}
-              productTitle={"Wembley USB Rechageable Hover Ball Indoor Football Soccer Game With Colorful LED (Grey) Hoverball"}
-            />
+        <MainCard
+          productImg={kid0}
+          productTitle={"Baby Smile Small Kids Cycle Toys / Baby Tricycle / Kids Trike 4006-Black Tricycle  (Black)"}
+        />
+        <MainCard
+          productImg={kid1}
+          productTitle={"Vivida Enterprise Dancing cactus Toy Talking Repeat Singing Toy 120 Songs (Green)  (Green)"}
+        />
+        <MainCard
+          productImg={kid2}
+          productTitle={"Mirana USB Rechargeable Racing RC Car | High Speed Remote Control Toy  (Pearl White)"}
+        />
+        <MainCard
+          productImg={kid3}
+          productTitle={"Babique Octopus Sitting Plush Soft Toy Cute Kids Animal Home Decor Boys/Girls (17 cm)"}
+        />
+        <MainCard
+          productImg={kid4}
+          productTitle={"Mayne Rechargeable Helicopter with Remote Control and Hand Sensor Toy for kids  (Yellow)"}
+        />
+        <MainCard
+          productImg={kid5}
+          productTitle={"Planet of Toys Heavy Duty Bow Arrow Set for Kids Age 5 -12 Years Outdoor Target Game Archery Archery Kit"}
+        />
+        <MainCard
+          productImg={kid6}
+          productTitle={"Prekrasna Portable 8.5 Inch LCD Writing Tablet / Drawing Board / Doodle Board / Writing Pad / slate for children"}
+        />
+        <MainCard
+          productImg={kid7}
+          productTitle={"Wembley USB Rechageable Hover Ball Indoor Football Soccer Game With Colorful LED (Grey) Hoverball"}
+        />
       </Carousel>
     </div>
   )

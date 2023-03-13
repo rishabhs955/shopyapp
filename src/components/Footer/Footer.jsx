@@ -124,6 +124,7 @@ function Footer() {
         </a>
       </div>
     </MDBFooter>
+    <img src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=shapind-21&language=en_IN&marketplace=amazon&region=IN&placement=B09PGK3WD8&asins=B09PGK3WD8&linkId=8734d673e0a43ef20ecad63795e93afd&show_border=true&link_opens_in_new_window=true" style={{width:'100%'}} alt="" />
     </div>
   )
 }
