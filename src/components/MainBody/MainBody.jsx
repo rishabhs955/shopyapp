@@ -135,12 +135,13 @@ function MainBody() {
       <Carousel responsive={responsive}
         infinite={true}  >
         <MainCard productImg={"https://m.media-amazon.com/images/I/41tDRLWBPlL._SY300_SX300_.jpg"}
-          productImgUrl={"https://www.amazon.in/Mivi-Earphones-Powerful-Tangle-Length/dp/B093LMBJB6?crid=27XO92SNKU7GD&keywords=mivi+earphone&qid=1678708159&sprefix=mivi+,aps,400&sr=8-3&linkCode=sl1&tag=shapind-21&linkId=183ab12fb33e5087990b148d9ad5574d&language=en_IN&ref_=as_li_ss_tl"}
+          productImgUrl={"https://amzn.to/400sNab"}
           productTitle={'Mivi Rock and Roll E5 Wired In Ear Earphones with HD Sound and Extra Powerful Bass with Mic, Tangle Free & Extra Length Cable | Earphones for Mobile | Black'}>
         </MainCard>
         <MainCard
-          productImg={elec1}
-          productTitle={"ASUS TUF Gaming F15 Core i5 10th Gen - (8 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce GTX 1650/144 Hz) FX506LHB-HN358W Gaming Laptop  (15.6 inch, Black Plastic, 2.30 kg kg)"}
+          productImg={"https://m.media-amazon.com/images/I/617P9ij1poL._SX679_.jpg"}
+          productImgUrl={"https://amzn.to/3yBh9XI"}
+          productTitle={"ASUS TUF Gaming F15 Intel Core i5 10th Gen - (8 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce GTX 1650/144 Hz) FX506LHB-HN358W Gaming Laptop (15.6 inch [40cm], Black Plastic, 2.30 kg)"}
         />
         <MainCard
           productImg={elec2}
