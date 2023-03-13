@@ -18,7 +18,7 @@ function MainCard(props) {
             <img src={amazon}  />
             <img src={flipkart} />
         </div> */}
-        <a href={props.productImgUrl}>
+        <a target={"_blank"} href={props.productImgUrl}>
           <Button className='mainCardButton' variant='success'>Buy Now</Button>
         </a>
       </Card.Body>
