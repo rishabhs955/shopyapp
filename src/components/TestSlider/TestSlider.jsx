@@ -1,8 +1,25 @@
 import React from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import axios from 'axios';
+import { useEffect, useState  } from 'react';
 
 function TestSlider() {
+
+  const [products, setProducts] = useState([]);
+
+
+     useEffect(() => {
+      const baseUrl = "http://localhost:4000";
+      const affUrl =  "/getbykeyword/fashion+jeans";
+      axios.get(baseUrl+affUrl)
+      .then((response) => {
+        setProducts(response.data.products);
+      });
+      console.log(products);
+    }, []);
+
+    
 
     const responsive = {
         superLargeDesktop: {
@@ -26,12 +43,6 @@ function TestSlider() {
 
   return (
     <div>
-        <Carousel responsive={responsive}>
-    <div>Item 1</div>
-    <div>Item 2</div>
-    <div>Item 3</div>
-    <div>Item 4</div>
-    </Carousel>;
     </div>
   )
 }
