@@ -4,6 +4,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import logo from './logo.png'
+import { Link } from 'react-router-dom';
+import "./NavBar.css";
 
 function NavBar() {
   return (
@@ -21,14 +23,13 @@ function NavBar() {
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav" className="me-auto justify-content-end">
-            <Nav>
-              <Nav.Link href="#home">Home</Nav.Link>
+            <Nav><Link className='navbarLink nav-link' to="/">Home</Link>
               <Nav.Link href="#home">Offers</Nav.Link>
               <NavDropdown title="Categories" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Grocery</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
-                  Fashion
-                </NavDropdown.Item>
+                  <Link className='navbarSubLink dropdown-item' to="/fashion">
+                    Fashion
+                  </Link>
                 <NavDropdown.Item href="#action/3.3">
                   Mobiles
                 </NavDropdown.Item>

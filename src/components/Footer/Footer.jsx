@@ -1,5 +1,6 @@
 import React from 'react';
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -20,13 +21,13 @@ function Footer() {
           {/* <a href='' className='me-4 text-reset'>
             <MDBIcon fab icon="google" />
           </a> */}
-          <a href='https://www.instagram.com/shapind_/' className='me-4 text-reset'>
+          <a target={"_blank"} rel="noreferrer" href='https://www.instagram.com/shapind_/' className='me-4 text-reset'>
             <MDBIcon fab icon="instagram" />
           </a>
-          <a href='https://www.youtube.com/@shapind' className='me-4 text-reset'>
+          <a target={"_blank"} rel="noreferrer" href='https://www.youtube.com/@shapind' className='me-4 text-reset'>
             <MDBIcon fab icon="youtube" />
           </a>
-          <a href='https://t.me/shapind' className='me-4 text-reset'>
+          <a target={"_blank"} rel="noreferrer" href='https://t.me/shapind' className='me-4 text-reset'>
             <MDBIcon fab icon="telegram" />
           </a>
         </div>
@@ -41,8 +42,7 @@ function Footer() {
                 Shapind.com
               </h6>
               <p>
-                Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit.
+              Welcome to our ShapIND website! We are dedicated to helping you make informed decisions by providing comprehensive and unbiased comparisons of various products and services.
               </p>
             </MDBCol>
 
@@ -54,9 +54,9 @@ function Footer() {
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
-                  Fashion
-                </a>
+              <Link to="/fashion" className='text-reset'>
+              Fashion
+                </Link>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
@@ -83,6 +83,7 @@ function Footer() {
                 </a>
               </p>
               <p>
+                
                 <a href='#!' className='text-reset'>
                   Orders
                 </a>
@@ -118,7 +119,7 @@ function Footer() {
       </section>
 
       <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
-        © 2023 Copyright : <a className='text-reset fw-bold text-decoration-none'  href='https://mdbootstrap.com/'>
+        © 2023 Copyright : <a className='text-reset fw-bold text-decoration-none'  href='https://www.shapind.com/'>
            Shapind.com
         </a>
       </div>
