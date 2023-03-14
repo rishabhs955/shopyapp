@@ -294,66 +294,70 @@ function MainBody() {
           productTitle={"The Man Company Body Spray Combo Pack For Men, Active, Legend, Intense & Bold, Long-Lasting Fragrance, Everyday Use Deo, 150ml (Pack Of 4)"}
         />
         <MainCard
-          productImg={""}
-          productImgUrl={"https://amzn.to/3ZKSpbp"}
-          productTitle={""}
+          productImg={"https://m.media-amazon.com/images/I/71hvuVj6GML._SY879_.jpg"}
+          productImgUrl={"https://amzn.to/3yAfZLS"}
+          productTitle={"Urbangabru Hair Removal cream Spray | Painless Body Hair Removal spray For Chest, Back, Legs & Under Arms (200 ml)"}
         />
         <MainCard
-          productImg={""}
-          productImgUrl={""}
-          productTitle={""}
+          productImg={"https://m.media-amazon.com/images/I/51GiGaQe8aL._SX522_.jpg"}
+          productImgUrl={"https://amzn.to/3YLs0Zs"}
+          productTitle={"Garnier Men, Face Wash, Brightening & Anti-Pollution, TurboBright Double Action, 100 g"}
         />
         <MainCard
-          productImg={""}
-          productImgUrl={""}
-          productTitle={""}
+          productImg={"https://m.media-amazon.com/images/I/61efFnT7A5L._SX522_.jpg"}
+          productImgUrl={"https://amzn.to/3Tb1EPo"}
+          productTitle={"Set Wet Styling Hair Gel for Men - Casually Cool, 250gm | Medium Hold, High Shine | For Medium to Long Hair |No Alcohol, No Sulphate"}
         />
         <MainCard
-          productImg={""}
-          productImgUrl={""}
-          productTitle={""}
+          productImg={"https://m.media-amazon.com/images/I/71ZaQtv8psL._SY879_.jpg"}
+          productImgUrl={"https://amzn.to/3TanmmS"}
+          productTitle={"Beardo Beard & Hair Growth Oil for thicker, longer beard | For patchy, uneven beard | Beard Oil for fast beard growth | Natural Hair Oil 50ml"}
         />
-        <MainCard
-          productImg={""}
-          productImgUrl={""}
-          productTitle={""}
-        />
+        
       </Carousel>
 
       <h1 className='MainCardsHeading'>Kids Section</h1>
       <Carousel responsive={responsive}
         infinite={true}  >
         <MainCard
-          productImg={kid0}
-          productTitle={"Baby Smile Small Kids Cycle Toys / Baby Tricycle / Kids Trike 4006-Black Tricycle  (Black)"}
+          productImg={"https://m.media-amazon.com/images/I/71iMbefozzL._SX522_.jpg"}
+          productImgUrl={"https://amzn.to/3FHK5Bl"}
+          productTitle={"Einstein Box Science Experiment Kit for Kids Aged 8-12-14 | STEM Projects | STEM Toys | Gift for 8-12 Year Old Boys & Girls | Chemistry Kit Set for 8-14 Year Olds"}
         />
         <MainCard
-          productImg={kid1}
-          productTitle={"Vivida Enterprise Dancing cactus Toy Talking Repeat Singing Toy 120 Songs (Green)  (Green)"}
+          productImg={"https://m.media-amazon.com/images/I/7139FuqxgjL._SX522_.jpg"}
+          productImgUrl={"https://amzn.to/3YRCXZS"}
+          productTitle={"WireScorts Bot Robot Toy (Multicolor)"}
         />
         <MainCard
-          productImg={kid2}
-          productTitle={"Mirana USB Rechargeable Racing RC Car | High Speed Remote Control Toy  (Pearl White)"}
+          productImg={"https://m.media-amazon.com/images/I/51AeNwFhGdL._SX522_.jpg"}
+          productImgUrl={"https://amzn.to/3ZYk73S"}
+          productTitle={"Babique Unicorn Teddy Bear Plush Soft Toy Cute Kids Birthday Animal Baby Boys/Girls (25 cm, Pink )"}
         />
         <MainCard
-          productImg={kid3}
-          productTitle={"Babique Octopus Sitting Plush Soft Toy Cute Kids Animal Home Decor Boys/Girls (17 cm)"}
+          productImg={"https://m.media-amazon.com/images/I/61RbsqvCXbL._SY679_.jpg"}
+          productImgUrl={"https://amzn.to/3JdlfKq"}
+          productTitle={"Fisher-Price Plastic Original Rock-a-Stack - Classic stacking toy with 5 colorful rings to grasp, shake, and stack ( Multicolor ) (1 pieces)"}
         />
         <MainCard
-          productImg={kid4}
-          productTitle={"Mayne Rechargeable Helicopter with Remote Control and Hand Sensor Toy for kids  (Yellow)"}
+          productImg={"https://m.media-amazon.com/images/I/614hC7xBgtL._SX522_.jpg"}
+          productImgUrl={"https://amzn.to/42b2kbC"}
+          productTitle={"FunBlast DIY Plastic Building Blocks for Kids Puzzle Games for Kids, Toys for Children Educational & Learning Toy for Kids, Girls & Boys - (250+ Blocks with 38 Wheels) Multicolor (250 pieces)"}
         />
         <MainCard
-          productImg={kid5}
-          productTitle={"Planet of Toys Heavy Duty Bow Arrow Set for Kids Age 5 -12 Years Outdoor Target Game Archery Archery Kit"}
+          productImg={"https://m.media-amazon.com/images/I/71eEHpwhkML._SX522_.jpg"}
+          productImgUrl={"https://amzn.to/3ldBcbx"}
+          productTitle={"Barbie Chelsea Doll & Travel Fun"}
         />
         <MainCard
-          productImg={kid6}
-          productTitle={"Prekrasna Portable 8.5 Inch LCD Writing Tablet / Drawing Board / Doodle Board / Writing Pad / slate for children"}
+          productImg={"https://m.media-amazon.com/images/I/719FfGa6HRL._SX522_.jpg"}
+          productImgUrl={"https://amzn.to/3J69Go4"}
+          productTitle={"SHINETOY ENTERTAIN KIDS TikTok Dancing Plush Toy (Talking Cactus)"}
         />
         <MainCard
-          productImg={kid7}
-          productTitle={"Wembley USB Rechageable Hover Ball Indoor Football Soccer Game With Colorful LED (Grey) Hoverball"}
+          productImg={"https://m.media-amazon.com/images/I/81FIqPJQ+lL._SX522_.jpg"}
+          productImgUrl={"https://amzn.to/3Fn9bVU"}
+          productTitle={"LEGO BrickHeadz Star Wars The Mandalorian & The Child 75317 Building Kit (295 Pieces)"}
         />
       </Carousel>
     </div>
