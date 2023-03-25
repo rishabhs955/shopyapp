@@ -97,16 +97,20 @@ function MainBody() {
         responsive={responsive}
         infinite={true}
       >
+        <CardGroup>
         <MainCard
           productImg={"https://m.media-amazon.com/images/I/71V0TFm3MsL._UX679_.jpg"}
           productImgUrl={"https://amzn.to/3LjO8qV"}
           productTitle={"FUNDAY FASHION Full Sleeve Blue Solid Women's Denim Jacket"}
         />
+        </CardGroup>
+        <CardGroup>
         <MainCard
           productImg={"https://m.media-amazon.com/images/I/61EtKnMmD+S._UX679_.jpg"}
           productImgUrl={"https://amzn.to/3FjL6iI"}
           productTitle={"Goodtry G Women's Cotton Hoodies-Black"}
         />
+        </CardGroup>
         <MainCard
           productImg={"https://m.media-amazon.com/images/I/61VCf0F1EuL._UX569_.jpg"}
           productImgUrl={"https://amzn.to/3FfIPVO"}
