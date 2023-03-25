@@ -9,7 +9,7 @@ import { MDBBtn, MDBIcon } from "mdb-react-ui-kit";
 function MainCard(props) {
   return (
     <Card>
-      <a target={"_blank"} href={props.productImgUrl}>
+      <a target={"_blank"} rel="noreferrer" href={props.productImgUrl}>
         <Card.Img
           variant="top"
           src={props.productImg}
@@ -34,8 +34,8 @@ function MainCard(props) {
           <MDBBtn style={{ backgroundColor: '#FB641B' }}  className='mx-2' href="#">
             Flipkart
           </MDBBtn>
-          <a target={"_blank"} href={props.productImgUrl}>
-          <MDBBtn color="dark" className='mx-2' href="#">
+          <a target={"_blank"} rel="noreferrer" href={props.productImgUrl}>
+          <MDBBtn color="dark" className='mx-2'>
             <MDBIcon color="warning" className="me-2" fab icon="amazon" /> Amazon
           </MDBBtn>
           </a>
