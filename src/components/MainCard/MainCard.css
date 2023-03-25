@@ -1,6 +1,6 @@
   .productImg{
     object-fit: contain;
-    padding: 40px;
+    padding: 18px 8px 10px;
   }
   
   .cardOutline{
@@ -42,4 +42,7 @@
     margin: auto;
   } */
   
+  .cardTitle{
+    cursor: pointer;
+  }
   
