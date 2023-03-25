@@ -32,6 +32,7 @@ function MainCard(props) {
         </div> */}
         <div className="d-flex justify-content-around">
           <MDBBtn style={{ backgroundColor: '#FB641B' }}  className='mx-2' href="#">
+            <img src="https://www.freepnglogos.com/uploads/flipkart-logo-png/flipkart-icon-23.png" className='me-2 mb-1' width="10" alt="flipkart icon" />
             Flipkart
           </MDBBtn>
           <a target={"_blank"} rel="noreferrer" href={props.productImgUrl}>
