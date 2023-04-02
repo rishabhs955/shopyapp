@@ -9,14 +9,12 @@ import { MDBBtn, MDBIcon } from "mdb-react-ui-kit";
 function MainCard(props) {
   return (
     <Card>
-      <a target={"_blank"} rel="noreferrer" href={props.productImgUrl}>
-        <Card.Img
-          variant="top"
-          src={props.productImg}
-          height={300}
-          className="productImg"
-        />
-      </a>
+      <Card.Img
+        variant="top"
+        src={props.productImg}
+        height={300}
+        className="productImg"
+      />
       <hr className="cardOutline" />
       <Card.Body>
         <div class="mainCardRibbonWrap">
@@ -30,15 +28,31 @@ function MainCard(props) {
             <img src={amazon}  />
             <img src={flipkart} />
         </div> */}
-        <div className="d-flex justify-content-around">
-          <MDBBtn style={{ backgroundColor: '#FB641B' }}  className='mx-2' href="#">
-            <img src="https://www.freepnglogos.com/uploads/flipkart-logo-png/flipkart-icon-23.png" className='me-2 mb-1' width="10" alt="flipkart icon" />
+        <div className="d-grid gap-2">
+          <MDBBtn
+            size="lg"
+            style={{ backgroundColor: "#FB641B" }}
+            className="mx-2"
+            href="#"
+          >
+            <img
+              src="https://www.freepnglogos.com/uploads/flipkart-logo-png/flipkart-icon-23.png"
+              className="me-2 mb-1"
+              width="10"
+              alt="flipkart icon"
+            />
             Flipkart
           </MDBBtn>
-          <a target={"_blank"} rel="noreferrer" href={props.productImgUrl}>
-          <MDBBtn color="dark" className='mx-2'>
-            <MDBIcon color="warning" className="me-2" fab icon="amazon" /> Amazon
-          </MDBBtn>
+          <a
+            className="d-grid gap-2"
+            target={"_blank"}
+            rel="noreferrer"
+            href={props.productImgUrl}
+          >
+            <MDBBtn size="lg" color="dark" className="mx-2">
+              <MDBIcon color="warning" className="me-2" fab icon="amazon" />{" "}
+              Amazon
+            </MDBBtn>
           </a>
         </div>
       </Card.Body>

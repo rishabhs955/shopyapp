@@ -1,14 +1,14 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import caro0 from '../assets/caro0.jpg';
-import caro2 from '../assets/caro2.jpg';
+import caro2 from '../assets/caro2.png';
 import caro3 from '../assets/caro3.jpg';
 import './HeroSection.css';
 
 function HeroSection() {
   return (
     <div>
-      <Carousel>
+      <Carousel style={{ marginTop: '60px' }}>
         <Carousel.Item interval={1000} className="caroItemSize">
             <img
             className="d-block w-100 caroItem"
@@ -26,7 +26,7 @@ function HeroSection() {
             alt="Second slide"
             />
             <Carousel.Caption>
-            <h3>Appliances</h3>
+            <h3>Follow us</h3>
             </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item className="caroItemSize">
