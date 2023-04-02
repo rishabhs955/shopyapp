@@ -1,39 +1,39 @@
-  .productImg{
-    object-fit: contain;
-    padding: 30px;
-  }
-  
-  .cardOutline{
-    margin: 0;
-  }
-    
-  .siteButtons{
-    margin: 40px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-  }
-  
-  .siteButtons img:nth-child(1){
-    margin-top: 15px;
-  }
-  
-  .siteButtons img{
-    width: 100px;
-    height: 30px;
-  }
+.productImg {
+  object-fit: contain;
+  padding: 30px;
+}
 
-  .bottomCardSection{
-  }
+.cardOutline {
+  margin: 0;
+}
 
-  .cardSubtitle{
-    /* position: absolute; */
-    margin-top: 20px;
-    color: green;
-    font-weight: bold;
-  }
+.siteButtons {
+  margin: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
 
-  /* .mainCardButton{
+.siteButtons img:nth-child(1) {
+  margin-top: 15px;
+}
+
+.siteButtons img {
+  width: 100px;
+  height: 30px;
+}
+
+.bottomCardSection {
+}
+
+.cardSubtitle {
+  /* position: absolute; */
+  margin-top: 20px;
+  color: green;
+  font-weight: bold;
+}
+
+/* .mainCardButton{
     position: absolute;
     bottom: 0;
     left: 0;
@@ -41,69 +41,108 @@
     width: 80%;
     margin: auto;
   } */
-  
-  .cardTitle{
-    cursor: pointer;
-  }
 
+.cardTitle {
+  cursor: pointer;
+}
 
-  /* RIBBON PART */
+/* RIBBON PART */
 
-  .mainCardRibbonWrap {
-    height: 188px;
-    position: relative;
-    margin-bottom: 30px;
-    background-size: cover;
-    text-transform: uppercase;
-    color: white;
-    width: 100%;
-    height: 188px;
-    position: absolute;
-    top: -8px;
-    left: 8px;
-    overflow: hidden;
+.mainCardRibbonWrap {
+  height: 188px;
+  position: relative;
+  margin-bottom: 30px;
+  background-size: cover;
+  text-transform: uppercase;
+  color: white;
+  width: 100%;
+  height: 188px;
+  position: absolute;
+  top: -8px;
+  left: 8px;
+  overflow: hidden;
+}
+.mainCardRibbonWrap:before,
+.mainCardRibbonWrap:after {
+  content: "";
+  position: absolute;
+}
+.mainCardRibbonWrap:before {
+  width: 40px;
+  right: 100px;
+  background: #4d6530;
+  border-radius: 8px 8px 0px 0px;
+}
+.mainCardRibbonWrap:after {
+  width: 8px;
+  right: 0px;
+  top: 100px;
+  background: #4d6530;
+  border-radius: 0px 8px 8px 0px;
+}
+.ribbon6 {
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  position: absolute;
+  top: 30px;
+  right: -50px;
+  z-index: 2;
+  overflow: hidden;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  border: 1px dashed;
+  box-shadow: 0 0 0 3px #ffffff, 0px 21px 5px -18px rgba(0, 0, 0, 0.6);
+  background: linear-gradient(95deg, #cadb40, #c53939, #35a71d, #2a90e6);
+  background-size: 800% 800%;
+
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
+  /* dda243 */
+  text-align: center;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 57%;
   }
-  .mainCardRibbonWrap:before, .mainCardRibbonWrap:after {
-    content: ""; 
-    position: absolute;
+  50% {
+    background-position: 100% 44%;
   }
-  .mainCardRibbonWrap:before {
-    width: 40px;
-    right: 100px;
-    background: #4D6530;
-    border-radius: 8px 8px 0px 0px;
+  100% {
+    background-position: 0% 57%;
   }
-  .mainCardRibbonWrap:after {
-    width: 8px;
-    right: 0px;
-    top: 100px;
-    background: #4D6530;
-    border-radius: 0px 8px 8px 0px;
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 57%;
   }
-  .ribbon6 {
-    width: 200px;
-    height: 40px;
-    line-height: 40px;
-    position: absolute;
-    top: 30px;
-    right: -50px;
-    z-index: 2;
-    overflow: hidden;
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
-    border: 1px dashed;
-    box-shadow:0 0 0 3px #dda243,  0px 21px 5px -18px rgba(0,0,0,0.6);
-    background: #dda243;
-    text-align: center;
+  50% {
+    background-position: 100% 44%;
   }
-  @media (min-width: 500px) {
-    .ribbons-wrapper {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-    }
-    .ribbon {
-      width: 48%;
-    }
+  100% {
+    background-position: 0% 57%;
   }
-  
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 57%;
+  }
+  50% {
+    background-position: 100% 44%;
+  }
+  100% {
+    background-position: 0% 57%;
+  }
+}
+@media (min-width: 500px) {
+  .ribbons-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .ribbon {
+    width: 48%;
+  }
+}
